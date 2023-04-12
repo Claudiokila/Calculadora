@@ -1,0 +1,48 @@
+.container { 
+  max-width: 400px;/*peso maximo*/
+  margin: 10vh auto 0 auto;/*posicionar 10% no topo com margem automática*/
+  box-shadow: 0px 0px 5px 5px rgb(12, 12, 12);/*sombra*/
+    
+}
+#display {
+  text-align: right;/*alinhar o texto a direita*/
+  height: 70px;/*altura fixa*/
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  background-color: #ced8df;
+}
+
+.buttons {
+    display: grid;/*usando grade*/
+    border-bottom: 1px solid #022A44;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.buttons > div {
+    border-top: 1px solid #022A44;
+    border-right: 1px solid #999;
+}
+.button {
+    border: 0.5px solid #022A44;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+#equal{
+   background-color: #022A44; 
+   color: white;
+}
+#equal:hover{
+    background-color: black; 
+    color: white;
+    transition: 0.5s ease-in-out;
+ }
+.button:hover{
+    background-color: black;
+    color: white ;
+    transition: 0.5s ease-in-out;
+}
